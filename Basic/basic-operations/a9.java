@@ -1,4 +1,4 @@
-public class a9 {
+public class A9 {
     public static void main(String[] args) {
         float a=1.6f;
         float b=12f;
