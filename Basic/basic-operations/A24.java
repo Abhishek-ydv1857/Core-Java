@@ -11,6 +11,7 @@ public class A24
         int c = sc.nextInt();
         int d = sc.nextInt();
         int e = sc.nextInt();
+
         int slove;
         slove=a+b+c+d+e;
         System.out.println(slove);
