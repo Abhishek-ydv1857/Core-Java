@@ -1,4 +1,4 @@
-public class B1 {
+public class Reversenum {
     public static void main(String[] args){
         int n = 675;
         int rem,sum=0;
