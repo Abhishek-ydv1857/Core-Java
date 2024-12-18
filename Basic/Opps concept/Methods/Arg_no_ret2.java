@@ -17,6 +17,27 @@ class A{
         System.out.println(cal);
     }
 }
+class B{
+    void even(int i){
+        if(i%2==0){
+            System.out.println("Even number");
+        }
+        else{
+            System.out.println("Not even");
+        }
+    }
+}
+class C{
+    void odd(int j){
+        if(j%2!=0){
+            System.out.println("Odd number");
+        }
+        else{
+            System.out.println("Not odd");
+        }
+    }
+}
+
 
 public class Arg_no_ret2 {
     public static void main(String[] args) {
@@ -44,7 +65,7 @@ public class Arg_no_ret2 {
         System.out.println("Enter b:");
         int f=sc3.nextInt();
         p1.div(e, f);
-        
+
         Scanner sc4=new Scanner(System.in);
         System.out.println("Enter a :");
         int g=sc4.nextInt();
@@ -52,5 +73,19 @@ public class Arg_no_ret2 {
         int h=sc4.nextInt();
         p1.multi(g, h);
         
-    }
+    
+    
+    B p2=new B();
+    Scanner sc5=new Scanner(System.in);
+    System.out.println("Enter a :");
+    int i=sc5.nextInt();
+    p2.even(i);
+
+
+    C p3=new C();
+    Scanner sc6=new Scanner(System.in);
+    System.out.println("Enter a :");
+    int j=sc6.nextInt();
+    p3.odd(j);
+}
 }
