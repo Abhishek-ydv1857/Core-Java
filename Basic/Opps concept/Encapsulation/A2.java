@@ -17,8 +17,8 @@ class Student{
 public class A2 {
    public static void main(String[] args) {
     int id=12;
-    String name="hello";
+    String name="Abhishek";
     Student p=new Student( id, name);
-    System.out.println(p.getId()+" "+p.getName());
+    System.out.println(p.getId()+"\n"+p.getName());
    } 
 }
