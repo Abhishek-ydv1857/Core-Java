@@ -11,5 +11,7 @@ public class A17 {
         int c ;
         c=a-b;
         System.out.println(c);
+
+        
     }
 }

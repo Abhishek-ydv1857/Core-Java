@@ -5,7 +5,7 @@ public class A10 {
         int c=12;
         int d=2;
         int e=13;
-        float sum=a*34+c/d-e;
+        float sum=a*b+c/d-e;
         System.out.println(sum);
     }
 }
